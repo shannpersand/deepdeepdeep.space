@@ -1,9 +1,11 @@
 {% include header.html %}
 
-
-home
-{{ content }}
-
-
+<section>
+  <ul>
+  {% for item in site.particles %}
+    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+  </ul>
+</section>
 
 {% include footer.html %}

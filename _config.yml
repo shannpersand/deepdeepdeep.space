@@ -45,6 +45,13 @@ sass:
 
 # Collections
 collections:
-  blobs:
+  particles:
     output: true
-    permalink: :path/
+    permalink: /particles/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: particles
+    values:
+      layout: single-particle
