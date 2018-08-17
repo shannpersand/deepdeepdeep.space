@@ -23,14 +23,16 @@ body {
 
 h1 {
   color: turquoise;
+  hyphens: auto;
   font-size: 4rem;
   font-weight: 700;
+  line-height: 1;
   word-break: break-all;
 }
 
 p {
   color: midnightblue;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 0.8rem;
 }
 
@@ -69,7 +71,7 @@ li:not(:last-child) {
   margin: 0;
   opacity: 0.95;
   text-align: center;
-  padding: 5%;
+  padding: 1rem 5%;
   position: fixed;
   width: 100%;
 }
