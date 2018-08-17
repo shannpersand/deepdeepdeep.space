@@ -31,6 +31,7 @@ h1 {
 p {
   color: midnightblue;
   font-size: 1.2rem;
+  margin-bottom: 0.8rem;
 }
 
 a, a:visited {
@@ -55,19 +56,24 @@ li:not(:last-child) {
 .links {
   display: flex;
   justify-content: space-between;
-  margin-top: 3rem;
-  text-align: center;
+  align-items: center;
   width: 100%;
 }
 
 .footer--main {
+  background: darken(mintcream, 5%);
+  box-shadow: 0 -3px 6px hsla(0, 0, 30%, 0.1);
   bottom: 0;
   color: turquoise;
-  font-size: .6rem;
   left: 0;
   margin: 0;
+  opacity: 0.95;
   text-align: center;
-  padding: 1rem;
+  padding: 5%;
   position: fixed;
   width: 100%;
+}
+
+small {
+  font-size: 0.6rem;
 }
