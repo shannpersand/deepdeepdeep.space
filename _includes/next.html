@@ -18,10 +18,12 @@
     {% endif %}
     {% assign prev = links %}
   {% endfor %}
-
+    <div class="links">
       {% if posts.size > 1 %}
         <!-- {% if prevurl %}<a href="{{prevurl}}" class="prev">PREV</a>{% endif %} -->
         {% if nexturl %}<a href="{{nexturl}}">more</a>{% endif %}
       {% endif %}
+      <a href="/">less</a>
+    </div>
 
 {% endif %}

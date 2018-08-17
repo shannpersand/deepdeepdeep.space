@@ -1,17 +1,68 @@
-$font-body: 'Space Mono', monospace;
+@font-face{
+  font-family:"comic shanns";
+  src:url("../font/comic-shanns-webfont.woff2") format("woff2"),
+      url("../font/comic-shanns-webfont.woff") format("woff");
+}
+
+$font-body: 'comic shanns', monospace;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 body {
+  background: mintcream;
   font-family: $font-body;
   font-size: 1rem;
   line-height: 1.3;
+  padding: 5%;
 }
 
 h1 {
+  color: turquoise;
   font-size: 4rem;
   font-weight: 700;
-  font-style: italic;
+  word-break: break-all;
 }
 
 p {
+  color: midnightblue;
   font-size: 1.2rem;
+}
+
+a, a:visited {
+  border-bottom: 1px dotted midnightblue;
+  color: midnightblue;
+  display: inline-block;
+  text-decoration: none;
+  transition: 100ms ease;
+
+  &:hover,
+  &:active {
+    border-bottom: 1px solid midnightblue;
+    color: tomato;
+    transition: 100ms ease;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer--main {
+  bottom: 0;
+  color: turquoise;
+  font-size: .6rem;
+  left: 0;
+  margin: 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
 }
