@@ -48,6 +48,10 @@ a, a:visited {
   }
 }
 
+li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
 .links {
   display: flex;
   justify-content: space-between;
@@ -63,6 +67,7 @@ a, a:visited {
   left: 0;
   margin: 0;
   text-align: center;
+  padding: 1rem;
   position: fixed;
   width: 100%;
 }
