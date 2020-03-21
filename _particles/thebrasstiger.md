@@ -32,12 +32,12 @@ Sometimes, when I visit my father and step-mother for holidays I go looking for 
 
 I am very sure, when I hold my father's funeral program in my hand, that the flowers on my mother's funeral program were blue, not pink or purple. I am sure that the silver dollar was to the right of the trophy. I recite the words of the certificate over and over, my mantra, 
 
-This
-Certificate of Outstanding Achievement
-is hereby granted for the subject(s) of:
-Reading & Writing
-Congratulations
-on your performance!
+This<br/>
+Certificate of Outstanding Achievement<br/>
+is hereby granted for the subject(s) of:<br/>
+Reading & Writing<br/>
+Congratulations<br/>
+on your performance!<br/>
 
 Everytime I hug someone or shake their hand as they shuffle down the line from my brother to me, I say to them in my mind "Congratulations on your performance," I murmur it over and over in my mind blessing them. It is so stuck in my mind that I nearly say it out loud to the actual priest when I go to thank him. He looks at me with sad eyes.
 
